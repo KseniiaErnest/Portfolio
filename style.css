@@ -16,14 +16,11 @@ Accent #4: #C2DBA6;
 html {
   font-size: 100%;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* REUSABEL */
-.section {
-  background-color: #FBFCF9 ;
-  padding: 3rem 0;
-  height: 100vh;
-}
+
 
 .grid-container {
   display: grid;
@@ -85,9 +82,27 @@ html {
   filter: brightness(90%) ;
 }
 
+/* STICKY NAV */
+.sticky .header-section{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(99, 139, 57, 0.658);
+  height: 4rem;
+}
 
+.sticky .section-hero {
+  margin-top: 4rem;
+}
 
 /* HERO SECTION */
+
+.section-hero {
+  background-color: #FBFCF9 ;
+  padding: 3rem 0;
+  height: 100vh;
+}
 
 .hero-heading {
   font-size: 3rem;
@@ -194,4 +209,43 @@ margin-bottom: 3rem;
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 500;
+}
+
+/* FOOTER */
+.footer {
+  padding: 2rem 0;
+  background-color: #638B39;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-me-container {
+  margin-bottom: 1.8rem;
+  margin-top: 2rem;
+}
+
+.contact-me-link:link,
+.contact-me-link:visited {
+text-decoration: none;
+font-size: 2rem;
+font-weight: 800;
+color: #83C243;
+padding: 1rem;
+background-color: #FBFCF9;
+border-radius: 3rem;
+}
+
+.contact-me-link:hover,
+.contact-me-link:active {
+  color: #83C243;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
