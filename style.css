@@ -18,6 +18,33 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+/* REUSABEL */
+.section {
+  background-color: #FBFCF9 ;
+  padding: 3rem 0;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90rem;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.container {
+  width: 100rem;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+}
+
+.grid--center {
+  align-items: center;
+}
+
 /* HEADER SECTION */
 .header-section {
   display: flex;
@@ -62,22 +89,6 @@ html {
 
 /* HERO SECTION */
 
-.hero-section {
-  background-color: #FBFCF9 ;
-  padding: 3rem 0;
-  height: 100vh;
-}
-
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 90rem;
-  margin: 0 auto;
-  align-items: center;
-  padding: 1rem;
-  gap: 3rem;
-}
-
 .hero-heading {
   font-size: 3rem;
   font-weight: 900;
@@ -87,7 +98,7 @@ html {
 
 
 .img-me {
-  width: 100%;
+  width: 85%;
 }
 
 .link:link,
@@ -122,4 +133,65 @@ html {
 }
 
 
+/* ABOUT ME */
+.backgroundColor {
+  background-color: #83C243;
+}
 
+
+/* PROJECTS */
+.projects-container {
+  padding: 3rem 0;
+  background-color:#FBFCF9;
+}
+
+.grid-two {
+  display: grid;
+  column-gap: 4.5rem;
+  row-gap: 8rem;
+}
+
+.grid-2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.heading-project {
+font-size: 3.5rem;
+font-size: 900;
+text-align: center;
+margin-bottom: 3rem;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.project-description-container {
+  background-color: #638B39;
+  color: #FBFCF9;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.project-name-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.project-tech {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-description-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
