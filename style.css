@@ -1,6 +1,7 @@
 /* Colors */
 /* 
 Primary: #FBFCF9 ;
+Dark fond: #1c2710;
 Accent #1: #638B39;
 Accent #2: #83C243;
 Accent #3: #9DA59B;
@@ -33,7 +34,7 @@ html {
 }
 
 .container {
-  width: 100rem;
+  max-width: 100rem;
   padding: 0 2.5rem;
   margin: 0 auto;
 }
@@ -109,6 +110,13 @@ html {
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 1.5rem;
+  color: #1c2710;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin: 2rem 0;
 }
 
 
@@ -149,10 +157,27 @@ html {
 
 
 /* ABOUT ME */
-.backgroundColor {
-  background-color: #83C243;
+
+.section {
+ padding: 3rem 0;
+ background-color: #83C243;
 }
 
+
+.about-me-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1c2710;
+  margin-bottom: 1.5rem;
+}
+
+.about-me--secondary-heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: #1c2710;
+  font-weight: 900;
+}
 
 /* PROJECTS */
 .projects-container {
@@ -177,6 +202,7 @@ font-size: 3.5rem;
 font-size: 900;
 text-align: center;
 margin-bottom: 3rem;
+color: #1c2710;
 }
 
 .project-img {
