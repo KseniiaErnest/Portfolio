@@ -250,6 +250,8 @@ color: #1c2710;
 .contact-me-container {
   margin-bottom: 1.8rem;
   margin-top: 2rem;
+width: 40%;
+  overflow: hidden;
 }
 
 .contact-me-link:link,
@@ -261,6 +263,9 @@ color: #83C243;
 padding: 1rem;
 background-color: #FBFCF9;
 border-radius: 3rem;
+
+display: inline-block;
+white-space: nowrap;
 }
 
 .contact-me-link:hover,
