@@ -43,3 +43,8 @@ timeline.fromTo(
   { x: textContainer.offsetWidth },
   { x: -textLineWidth, duration: 7, ease: 'linear' }
 );
+
+
+// GSAP
+gsap.from('.animation-link', {opacity: 0, duration: 7, delay: 1, stagger: .7});
+gsap.from('.img-me', {x: 170, duration: 3, opacity: 0})
